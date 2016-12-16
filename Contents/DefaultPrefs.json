@@ -1,0 +1,26 @@
+[
+    {
+        "id": "showchannel",
+        "label": "Show channel in the description",
+        "type": "bool",
+        "default": "true"
+    },
+    {
+        "id": "showdate",
+        "label": "Show date recorded in the description",
+        "type": "bool",
+        "default": "true"
+  },
+    {
+        "id": "dateformat",
+        "label": "Use this date format",
+        "type": "enum",
+        "values": [
+            "%d/%m/%Y",
+            "%d/%m/%y",
+            "%m/%d/%Y",
+            "%A %d %B %Y"
+    ],
+        "default": "%d/%m/%Y"
+    }
+]
